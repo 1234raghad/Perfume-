@@ -1,0 +1,146 @@
+/* إعدادات الخلفية العامة للموقع */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf7f2; /* بيج هادئ وفخم يناسب العطور */
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* تنسيق الهيدر العلوي */
+header {
+    background-color: #1a1512; /* بني داكن ملكي */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+header .logo {
+    color: #c5a880; /* ذهبي */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #f1ebd9;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#theme-btn {
+    background-color: #c5a880;
+    color: #1a1512;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* تنسيق الواجهة الترحيبية */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eedec9;
+    color: #1a1512;
+}
+
+/* تنسيق وترتيب كروت المنتجات */
+.products-container {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* ليتناسب التصميم مع شاشات الجوال */
+    margin-top: 20px;
+}
+
+.product-card {
+    background: #ffffff;
+    border: 1px solid #e1d7c6;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.price {
+    color: #b58d53;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buy-btn {
+    background-color: #1a1512;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* تنسيق استمارة الطلب والتواصل */
+.order-section {
+    background-color: #1a1512;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#order-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+#order-form input {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#order-form button {
+    background-color: #c5a880;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* خصائص الوضع المظلم (Dark Mode) الذي يتم تفعيله بالجافاسكربت */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .product-card {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1512;
+    color: #f1ebd9;
+    border-top: 1px solid #333;
+}
