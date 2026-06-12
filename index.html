@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر شذى العطور</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">شذى العطور ✨</div>
+        <nav>
+            <a href="#">الرئيسية</a>
+            <a href="#">العطور الرجالية</a>
+            <a href="#">العطور النسائية</a>
+        </nav>
+        <button id="theme-btn">تبديل المظهر 🌙</button>
+    </header>
+
+    <section class="hero-section">
+        <h1>عالم من الفخامة والجاذبية</h1>
+        <p>اكتشف تشكيلتنا الحصرية من أفخم العطور العالمية والمحلية</p>
+    </section>
+
+    <main class="products-container">
+        <h2>الأكثر مبيعاً الآن</h2>
+        <div class="products-grid">
+            
+            <div class="product-card">
+                <img src="perfume1.jpg" alt="عطر العود الملكي">
+                <h3>عطر العود الملكي</h3>
+                <p class="price">250 ريال</p>
+                <button class="buy-btn">طلب الآن</button>
+            </div>
+
+            <div class="product-card">
+                <img src="perfume2.jpg" alt="عطر اللافندر الفاخر">
+                <h3>عطر اللافندر الفاخر</h3>
+                <p class="price">180 ريال</p>
+                <button class="buy-btn">طلب الآن</button>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="order-section">
+        <h3>احجز عطرك المفضل</h3>
+        <form id="order-form">
+            <input type="text" id="buyer-name" placeholder="اسمك الكريم (3 أحرف فأكثر)" required>
+            <input type="tel" id="buyer-phone" placeholder="رقم الهاتف للتواصل" required>
+            <button type="submit">تأكيد الحجز السريع</button>
+            <p id="form-status"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 متجر شذى العطور - جميع الحقوق محفوظة لطلاب المشروع.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
